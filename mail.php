@@ -7,7 +7,7 @@ $message = $_POST['message'];
 $to = "rajattripathi243@email.com";
 $subject = "Mail From My Portfolio";
 $txt = "First Name ". $firstname . "\r\n Last Name = " . $lastname . "\r\n Email = " . $email . "\r\n Phone = " . $phone . "\r\n Message = " . $message;
-$headers = "From: noreply@rajat.soumojit.in" . "\r\n" ;
+$headers = "From: noreply@technatorium.com" . "\r\n" ;
 if($email=NULL){
     mail($to,$subject,$txt,$headers);
 }
