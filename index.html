@@ -269,7 +269,7 @@
             </div>
         </section>
         <!--contact-->
-        <section class="contact" id="contact">
+        <form action="mail.php" method="POST" class="contact" id="contact">
             <div class="title">
                 <h2>Get in touch</h2>
                 <p>Anyone interseted to know more about our team , our projects should feel free to get in touch with us
@@ -277,21 +277,21 @@
             </div>
             <div class="contactform">
                 <div class="row">
-                    <input type="text" name="" placeholder="First Name">
-                    <input type="text" name="" placeholder="Last Name">
+                    <input type="text" name="firstname" placeholder="First Name">
+                    <input type="text" name="lastname" placeholder="Last Name">
                 </div>
                 <div class="row">
-                    <input type="text" name="" placeholder="Email Address">
-                    <input type="text" name="" placeholder="Mobile No.">
+                    <input type="text" name="email" placeholder="Email Address">
+                    <input type="text" name="phone" placeholder="Mobile No.">
                 </div>
                 <div class="row2">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Message"></textarea>
                 </div>
                 <div class="row2">
-                    <input type="submit" value="Send" class="btn">
+                    <input type="submit" name="submit" value="Send" class="btn">
                 </div>
             </div>
-        </section>
+        </form>
         <!--footer-->
         <footer>
             <a href="#" class="logo1">Technatorium</a>
